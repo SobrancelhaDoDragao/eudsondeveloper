@@ -654,6 +654,10 @@ body.light-theme{
   border-radius: .5rem;
 }
 
+.work__subtitle{
+  font-size: var(--tiny-font-size);
+}
+
 .work__card{
   background-color: var(--container-color);
   padding: 1rem;
