@@ -1054,13 +1054,16 @@ height: 11rem;
     font-size: 2rem;
   }
   
- 
   .about__container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     column-gap: 4rem;
   }
 
+  .about__info{
+    grid-template-columns: 1fr 1fr;
+  }
+  
   .about__data{
     text-align: initial;
   }
@@ -1071,7 +1074,7 @@ height: 11rem;
 
   .about__box{
     text-align: center;
-    padding: 1rem 1.25rem;
+    padding: .5rem;
   }
 
   .about__description{
