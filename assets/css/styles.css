@@ -328,7 +328,7 @@ body.light-theme{
 }
 
 .home__img{
-  width:160px;
+  width:90%;
 }
 
 .home__handle{
@@ -912,7 +912,7 @@ height: 11rem;
   }
   
   .home__img{
-    width: 130px;
+    width:90%;
   }
 
   .about__info{
@@ -1038,7 +1038,7 @@ height: 11rem;
   }
 
   .home__img{
-    width: 220px;
+    width:90%;
   }
 
   .home__social-link{
