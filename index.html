@@ -606,25 +606,25 @@
 
             <section class="contact section" id="contact">
 
-                <span class="section__subtitle">Get in touch </span>
+                <span class="section__subtitle">Formas de contato</span>
                 
-                <h2 class="section__title">Contact Me</h2>
+                <h2 class="section__title">Entre em contato</h2>
                 
                 <div class="contact__container container grid">
                     
                     <div class="contact__content">
 
-                        <h3 class="contact__title">Talk to me</h3>
+                        <h3 class="contact__title">Contatos</h3>
 
                         <div class="contact__info">
                             <div class="contact__card">
 
                                 <i class='bx bx-mail-send contact__card-icon'></i>
                                 <h3 class="contact__card-title">Email</h3>
-                                <span class="contact__card-data">user@gmail.com</span>
+                                <span class="contact__card-data">eudson.duraes@gmail.com</span>
                             
-                                <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                <a href="mailto:eudson.duraes@gmail.com" target="_blank" class="contact__button">
+                                    Clique aqui para entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                                 </a>
                             </div>
 
@@ -632,21 +632,22 @@
 
                                 <i class='bx bxl-whatsapp contact__card-icon'></i>
                                 <h3 class="contact__card-title">Whatsapp</h3>
-                                <span class="contact__card-data">999-888-777</span>
+                                <span class="contact__card-data">+55 (61) 9 9298-8640</span>
                             
                                 <a href="https://api.whatsapp.com/send?phone=5561992988640&text=Hello, more information!" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                    Clique aqui para entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                                 </a>
                             </div>
 
                             <div class="contact__card">
+                                
+                                <i class='bx bxl-linkedin-square contact__card-icon'></i>
 
-                                <i class='bx bxl-messenger contact__card-icon'></i>
-                                <h3 class="contact__card-title">Menssenger</h3>
-                                <span class="contact__card-data">user.fb123</span>
+                                <h3 class="contact__card-title">Linkedin</h3>
+                                <span class="contact__card-data">Eudson Durães</span>
                             
-                                <a href="https://m.me/bedimcode" target="_blank" class="contact__button">
-                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                <a href="https://www.linkedin.com/in/eudson-dur%C3%A3es-010060192/" target="_blank" class="contact__button">
+                                    Clique aqui para entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                                 </a>
                             </div>
                         </div>
@@ -655,27 +656,41 @@
 
                     <div class="contact__content">
 
-                        <h3 class="contact__title">Write me your project</h3>
+                        <h3 class="contact__title">Me envie um email</h3>
                         
-                        <form action="" class="contact__form">
+                        <form id="form" action="https://formsubmit.co/eudson.duraes@gmail.com" class="contact__form" method="post" >
 
                            <div class="contact__form-div">
-                               <label for="" class="contact__form-tag">Names</label>
-                               <input type="text" placeholder="Insert your name" class="contact__form-input">
+                               <label for="" class="contact__form-tag">Nome</label>
+                               <input type="text" name="name" placeholder="Escreva seu nome" class="contact__form-input" required>
                            </div>
 
                            <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Mail</label>
-                            <input type="email" placeholder="Insert your email" class="contact__form-input">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="email" name="email" placeholder="Escreva seu email" class="contact__form-input" required>
                            </div>
 
                             <div class="contact__form-div contact__form-area">
-                                <label for="" class="contact__form-tag">Project</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"  ></textarea>
+                                <label for="" class="contact__form-tag">Assunto</label>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Escreva o assunto" class="contact__form-input"  ></textarea>
                             </div>
+                            
+
+                            <input type="hidden" name="_next" value="https://sobrancelhadodragao.github.io/eudsondeveloper/" >
+                            <input type="hidden" name="_captcha" value="false">
                            
-                            <button class="button">Send Message</button>
+                            <button type="submit" class="button">Enviar</button>
                         </form>
+
+                        <script>
+                            
+                            function aviso(){
+                                alert("Email enviado com sucesso!!")
+                            }
+
+                            form = document.getElementById("form");
+                            form.addEventListener('submit', aviso());
+                        </script>
                     </div>
                 </div>
 
@@ -690,17 +705,13 @@
                 <ul class="footer__list">
 
                     <li>
-                        <a href="#about" class="footer__link">About</a>
+                        <a href="#about" class="footer__link">Sobre mim</a>
                     </li>
 
                     <li>
-                        <a href="#work" class="footer__link">Projects</a>
+                        <a href="#work" class="footer__link">Portfólio</a>
                     </li>
 
-                    <li>
-                        <a href="#testimonial" class="footer__link">Testimonial</a>
-                    </li>
-                
                 </ul>
 
                 <ul class="footer__social">
@@ -714,7 +725,7 @@
                 </ul>
 
                 <span class="footer__copy">
-                    &#169; Eudson. All rigths reserved
+                    &#169;Eudson. All rigths reserved
                 </span>
 
             </div>
