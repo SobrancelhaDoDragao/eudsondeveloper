@@ -655,7 +655,7 @@ body.light-theme{
 }
 
 .work__subtitle{
-  font-size: var(--tiny-font-size);
+  font-size: var(--smaller-font-size);
 }
 
 .work__card{
