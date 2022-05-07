@@ -474,6 +474,7 @@ body.light-theme{
 
 .about__description{
   margin-bottom: 2rem;
+  text-align: justify;
 }
 /*=============== SKILLS ===============*/
 .skills__container{
@@ -1057,7 +1058,7 @@ height: 11rem;
   .about__container{
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 2rem;
   }
 
   .about__info{
@@ -1078,7 +1079,7 @@ height: 11rem;
   }
 
   .about__description{
-    padding: 0 4rem 0 0;
+    padding: 0;
     margin-bottom: 2.5rem;
   }
   
