@@ -657,6 +657,7 @@ body.light-theme{
 
 .work__subtitle{
   font-size: var(--smaller-font-size);
+  text-align: justify;
 }
 
 .work__card{
@@ -987,7 +988,7 @@ height: 11rem;
   }
 
   .work__img{
-    width: 295px;
+    width: 550px;
   }
 
   .contact__info{
@@ -1003,7 +1004,7 @@ height: 11rem;
 
 @media screen and (min-width: 767px){
   .work__container{
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(2,.4fr);
   }
   
   .contact__container{
