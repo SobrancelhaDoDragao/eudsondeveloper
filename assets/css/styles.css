@@ -1002,16 +1002,22 @@ height: 11rem;
   }
 }
 
+/*Contact only*/
 @media screen and (min-width: 767px){
-  .work__container{
-    grid-template-columns: repeat(2,.4fr);
-  }
   
   .contact__container{
     grid-template-columns: repeat(2,max-content);
     justify-content: center;
     column-gap: 3rem;
   }
+}
+
+/*work only*/
+@media screen and (min-width: 630px){
+  .work__container{
+    grid-template-columns: repeat(2,.4fr);
+  }
+  
 }
 /* For large devices */
 
