@@ -664,6 +664,7 @@ body.light-theme{
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  text-align: justify;
 }
 
 .work__img{
