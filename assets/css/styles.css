@@ -341,7 +341,7 @@ body.light-theme{
   );
 
   border-radius: 15rem;
-  border: .2rem solid black;
+  border: .2rem solid var(--title-color);
   display: flex;
   align-items: flex-end;
   justify-content: center;
