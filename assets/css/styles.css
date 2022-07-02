@@ -328,12 +328,12 @@ body.light-theme{
 }
 
 .home__img{
-  width:90%;
+  width:100%;
 }
 
 .home__handle{
   justify-self: center;
-  width: 190px;
+  width: 220px;
   height: 293px;
   background: linear-gradient(180deg,
   hsla(var(--first-hue),var(--sat),var(--lig),1),
@@ -916,7 +916,7 @@ height: 11rem;
   }
   
   .home__img{
-    width:90%;
+    width:100%;
   }
 
   .about__info{
@@ -1048,7 +1048,7 @@ height: 11rem;
   }
 
   .home__img{
-    width:90%;
+    width:100%;
   }
 
   .home__social-link{
